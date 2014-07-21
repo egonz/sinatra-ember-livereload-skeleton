@@ -1,0 +1,7 @@
+.sass-cache/*
+public/stylesheets/application.css
+*.sqlite3
+node_modules
+dist/*
+vendor
+tmp
