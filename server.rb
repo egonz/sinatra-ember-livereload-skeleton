@@ -8,17 +8,12 @@ require 'bundler/setup'
 require 'sinatra'
 require 'sinatra/activerecord'
 
-require 'sass/plugin/rack'
-
 # Require classes needed for project
 require path_to('lib/models/foo')
-
-use Sass::Plugin::Rack
 
 configure do
   set :views, File.expand_path(path_to 'dist')
   set :public_folder, File.expand_path(path_to 'dist')
-  set :haml, { :attr_wrapper => '"', :format => :html5 }
   set :database, { adapter: "sqlite3", database: "foo.sqlite3" }
 end
 
