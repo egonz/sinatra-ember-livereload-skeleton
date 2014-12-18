@@ -4,7 +4,7 @@ sinatra-ember-skeleton
 Sinatra skeleton for use with ember-cli
 
 1. git clone https://github.com/egonz/sinatra-ember-livereload-skeleton
-2. mv sinatra-ember-livereload-skeleton to \<project name\> && cd $_
+2. mv sinatra-ember-livereload-skeleton \<project name\> && cd $_
 3. bundle install
 4. ember new \<project name\>
 5. gem install rerun
