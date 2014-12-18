@@ -10,8 +10,7 @@ Sinatra skeleton for use with ember-cli
 5. ember init \<project name\>
 6. ember build
 
-To Run
-------
+## To Run
 
 In three separate shells execute the following commands in this order:
 
@@ -20,3 +19,7 @@ In three separate shells execute the following commands in this order:
 3. ember build --watch
 
 In Chrome goto: http://localhost:9292/
+
+## Test it out
+
+Make a change to the app/styles/app.css. The change will be copied to dist/assets/\<project name\>.css, and your browser will reload.
