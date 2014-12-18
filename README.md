@@ -1,4 +1,4 @@
-sinatra-ember-skeleton
+sinatra-ember-livereload-skeleton
 ======================
 
 Sinatra skeleton for use with ember-cli
