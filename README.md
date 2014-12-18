@@ -7,8 +7,7 @@ Sinatra skeleton for use with ember-cli
 2. mv sinatra-ember-livereload-skeleton \<project name\> && cd $_
 3. bundle install
 4. gem install rerun
-5. ember init \<project name\>
-	a. Enter Y to Overwrite Readme.md
+5. ember init \<project name\>; Enter Y to Overwrite Readme.md
 6. ember build
 
 ## To Run
