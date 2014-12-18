@@ -12,10 +12,10 @@ Sinatra skeleton for use with ember-cli
 To Run
 ------
 
-In three separate shells:
+In three separate shells execute:
 
+* ember build --watch
 * guard
 * rerun 'rackup'
-* ember build --watch
 
 In Chrome goto: http://localhost:9292/
